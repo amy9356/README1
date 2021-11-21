@@ -52,9 +52,16 @@ while getopts "ap:" option
 
 ***
 ## 리눅스 ***sed*** 명령어
-- 정의 : 
-- 사용 방법 : 
-- 예제 : 
+- 정의 : ** sd + grep 으로, 텍스트를 변형하고 출력하는 텍스트 편집 도구**
+- 사용 방법
+|분류|사용예제|설명|
+|---|---|---|
+|치환|sed 's/addrass/address/' list.txt|addrass를 address로 바꿈|
+|치환|sed 's/\t/\ /' list.txt|탭문자를 엔터로 변환|
+|삭제|sed '/TD/d' 1.html|TD 문자가 포함된 줄을 삭제하여 출력|
+|삭제|sed '/Src/!d' 1.html|Src 문자가 있는 줄만 지우지 않음|
+|삭제|sed '1,2d' 1.html| 처음 1줄, 2줄을 지움|
+|삭제|sed '/^$/d 1.html|공백라인을 삭제하는 명령|
 
 
 
