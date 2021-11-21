@@ -54,6 +54,7 @@ while getopts "ap:" option
 ## 리눅스 ***sed*** 명령어
 - 정의 : ** sd + grep 으로, 텍스트를 변형하고 출력하는 텍스트 편집 도구**
 - 사용 방법
+
 |분류|사용예제|설명|
 |---|---|---|
 |치환|sed 's/addrass/address/' list.txt|addrass를 address로 바꿈|
